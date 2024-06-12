@@ -267,6 +267,16 @@ h2{
     max-width: 10vw;
     background-color: rgba(248, 243, 243, 0.058);
 }
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.links a{
+    color: rgba(255, 255, 255, 0.7);
+}
 @media screen and (max-width: 1300px) {
 
     .footer {
